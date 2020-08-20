@@ -1,2 +1,2 @@
-# SustainableMealz
+# WorthEat
 Food saver app
