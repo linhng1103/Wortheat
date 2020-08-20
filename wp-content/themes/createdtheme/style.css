@@ -1,0 +1,10 @@
+/*
+ Theme Name:   Child Theme
+ Theme URI:    
+ Description:  Twenty Twenty Child Theme
+ Author:       Linh Nguyen
+ Author URI:   http://example.com
+ Template:     twentytwenty
+ Version:      1.0.0
+*/
+@import url('../twentytwenty/style.css')
